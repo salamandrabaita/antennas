@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM node:10.23.1-alpine3.9
 LABEL maintainer "jf.arseneau@gmail.com"
 
 COPY . /antennas
